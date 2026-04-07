@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+img {
+    display: block;
+}
+
+.main-header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation-and-logo-list,
+.address-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    font-weight: 600;
+    margin-right: 76px;
+}
+
+.logo .logo-web {
+    color: #4D5AE5;
+}
+
+.address {
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+}
+
+.navigation:hover,
+.address:hover {
+    color: #404BBF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+    color: white;
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+}
+
+.order-service,
+.main-footer {
+    background-color:#2E2F42;
+}
+
+.button-order-service {
+    background-color:#4D5AE5;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-order-service:hover {
+    background-color: #404BBF;
+}
+
+.about-header,
+.employee,
+.our-portfolio-article-header {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.about-description,
+.employee-profession,
+.our-portfolio-article-description {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.our-team-header,
+.our-portfolio-header {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+
+.workers {
+    background-color: white;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    padding-bottom: 32px 0;
+    overflow: hidden;
+}
+
+.main-footer-description {
+    color: #F4F4FD;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+    max-width: 264px;
+    margin-top: 16px;
+}
+
+.main-footer .logo {
+    color: #F4F4FD;
+}
+
+.order-service {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.order-service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.navigation-and-logo-list {
+    align-items: center;
+}
+
+.about ul,
+.our-team ul,
+.our-portfolio ul {
+    display: flex;
+    gap: 24px;
+}
+
+.our-portfolio ul {
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+
+.our-portfolio li {
+    width: calc((100% - 48px) / 3);
+}
+
+.about li {
+    width: calc((100% - 72px) / 4);
+}
+
+.about,
+.our-portfolio {
+    padding: 120px 0;
+}
+
+.main-footer {
+    padding: 100px 0;
+}
+
+.main-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.employee {
+    margin-top: 32px;
+}
+
+.employee-profession {
+    margin-top: 8px;
+}
+
+.about-header {
+    margin-bottom: 8px;
+}
+
+.our-portfolio-article {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    overflow: hidden;
+}
+
+.our-portfolio-article img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-text {
+    padding: 32px 16px;
+}
